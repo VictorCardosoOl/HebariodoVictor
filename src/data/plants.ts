@@ -104,5 +104,26 @@ export const PLANTS: Plant[] = [
       },
       detailImage: 'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=1000&auto=format&fit=crop'
     }
+  },
+  {
+    id: 'ficus-lyrata-bambino',
+    title: "Ficus lyrata 'Bambino'",
+    subtitle: 'Otimização de Área Foliar e Fototropismo',
+    image: 'https://images.unsplash.com/photo-1610450947065-2c9df7b2fa1a?q=80&w=2000&auto=format&fit=crop',
+    category: 'Adaptação Morfológica',
+    dossier: {
+      structuralAnalysis: 'A variante "Bambino" apresenta um nanismo genético que condensa a rede vascular e aumenta a densidade foliar. Suas folhas coriáceas em formato de lira possuem uma cutícula espessa, projetada para resistir a correntes de ar enquanto maximiza a captação de luz em espaços confinados.',
+      fluidDynamics: {
+        capillarity: 'Sistema xilemático altamente responsivo a ciclos de seca e inundação. Requer um gradiente de secagem no substrato para evitar asfixia radicular e edema foliar (rompimento celular por excesso de pressão hídrica).',
+        evapotranspiration: 'Possui estômatos de grande calibre na face abaxial, resultando em rápida perda de umidade em ambientes secos. Exige monitoramento rigoroso do Déficit de Pressão de Vapor (VPD) para evitar necrose nas bordas.'
+      },
+      geometry: 'Crescimento apical dominante com filotaxia espiralada. A sobreposição das folhas é minimizada pelo fototropismo ativo, onde os pecíolos realizam torção mecânica (fototropismo positivo) para alinhar a lâmina foliar perpendicularmente à fonte de luz primária.',
+      specs: {
+        light: '2500-4000 lux',
+        humidity: '> 55%',
+        growth: '0.3m / ano'
+      },
+      detailImage: 'https://images.unsplash.com/photo-1620127393452-927907570498?q=80&w=1000&auto=format&fit=crop'
+    }
   }
 ];
