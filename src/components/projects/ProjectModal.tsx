@@ -77,11 +77,11 @@ export default function ProjectModal({ isOpen, onClose, item, children }: Projec
             initial={{ y: "100%" }}
             animate={{ 
               y: "2%", 
-              transition: { type: "spring", damping: 30, stiffness: 300, mass: 0.8 } 
+              transition: { type: "spring", damping: 40, stiffness: 200, mass: 1 } 
             }}
             exit={{ 
               y: "100%", 
-              transition: { duration: 0.5, ease: [0.32, 0, 0.67, 0] } 
+              transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } 
             }}
             className="relative w-full h-[95vh] md:h-[98vh] bg-paper rounded-t-[2rem] md:rounded-t-[3rem] shadow-2xl overflow-hidden"
           >

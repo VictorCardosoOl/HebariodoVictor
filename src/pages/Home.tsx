@@ -16,9 +16,8 @@ export default function Home() {
       gsap.from('.hero-anim', {
         y: 50,
         opacity: 0,
-        duration: 1.2,
+        duration: 1.4,
         stagger: 0.1,
-        ease: 'power3.out',
       });
     }, containerRef);
 

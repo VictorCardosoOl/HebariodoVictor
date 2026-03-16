@@ -5,8 +5,8 @@ import { TextPlugin } from 'gsap/TextPlugin';
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 gsap.defaults({
-  duration: 1,
-  ease: 'power3.out',
+  duration: 1.2,
+  ease: 'expo.out',
 });
 
 export { gsap, ScrollTrigger, TextPlugin };

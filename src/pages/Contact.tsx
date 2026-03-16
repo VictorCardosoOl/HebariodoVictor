@@ -11,9 +11,8 @@ export default function Contact() {
       gsap.from('.anim-target', {
         y: 30,
         opacity: 0,
-        duration: 1,
+        duration: 1.2,
         stagger: 0.1,
-        ease: 'power2.out',
       });
     }, containerRef);
 

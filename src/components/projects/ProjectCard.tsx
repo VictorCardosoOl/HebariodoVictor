@@ -26,7 +26,7 @@ export default function ProjectCard({ item, onClick }: ProjectCardProps) {
 
   // 2. Suavizar Física do scroll
   const smoothProgress = useSpring(scrollYProgress, {
-    damping: 20, stiffness: 100, mass: 0.5
+    damping: 30, stiffness: 80, mass: 1
   });
   
   // 3. Transformações Visuais (ClipPath e Parallax)
